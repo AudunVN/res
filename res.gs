@@ -82,10 +82,11 @@ function setFormEntries() {
   .setConfirmationMessage('Your registration has been received. A receipt has been sent to your email address.')
   .setAllowResponseEdits(true)
   .setAcceptingResponses(true);
-  Logger.log(form.getItems().length);
-  for (i = 0; i < form.getItems().length; i++) {
-    form.deleteItem(i);
-    Logger.log(i);
+  Logger.log(form.getItems());
+  var formLength = form.getItems().length;
+  Logger.log("Form length: "+formLength);
+  for (var i = 0; i < formLength; i++) {
+    form.deleteItem(0);
   }
   form.addTextItem().setTitle('Name').setRequired(true);
   form.addTextItem().setTitle('Email').setRequired(true);
