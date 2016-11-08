@@ -1,0 +1,2 @@
+"%ProgramFiles(x86)%\Google\Chrome\Application\chrome.exe" -new-window -incognito "https://docs.google.com/document/d/1r-zVz-SyMLp2W7XAz1jwdKSBug5NzvnkDS9UHz2a1co/edit" "https://script.google.com/macros/d/MmkB9oyZXw-FR-iK-JkweLQ5yLunfoXPa/edit?uiv=2&mid=ACjPJvF9OCZd_YecWxH-200itRSj5LoV6Vf9QduPhJOFN_O1avqEWaL_axGgApB5HO_rR8o_BSYn_bBb2y4DPJVkBUDcSw_sxlm-rkdkF5R_fLVJfEviYtqfzW5sQLFh_NMm82CF7YoL_Aw" "https://drive.google.com/drive/my-drive" "https://docs.google.com/forms/d/e/1FAIpQLSdPXJMmSTsRUM5QyYfRdxF3wdoKJP_68rLA7mq66ALiKNvRAg/viewform"
+pause
